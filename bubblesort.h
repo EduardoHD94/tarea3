@@ -13,9 +13,40 @@
 #define BUBLESORT 
 #include <stdio.h>
 
+/** @brief Sort the array 
+ * 
+ *  @param *array Pointer to access the array
+ *  @param n Size of array
+ *
+ *  @return Void
+ */
 void bubble_sort(int *, int);
+
+/** @brief Fill the array 
+ * 
+ *  @param *array Pointer to access the array
+ *  @param n Size of array
+ *
+ *  @return Void
+ */
 void fill_array(int *, int);
+
+/** @brief Print the array 
+ * 
+ *  @param *array Pointer to access the array
+ *  @param n Size of array
+ *
+ *  @return Void
+ */
 void print_array(int *, int);
+
+/** @brief Validar numeros 
+ * 
+ *  @param *array Array
+ *  @param i Position of array to validate
+ *
+ *  @return Void
+ */
 void validarValoresArreglo(int *,int);
 
 #endif

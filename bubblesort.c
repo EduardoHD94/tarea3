@@ -1,4 +1,4 @@
-/** @file bublesort.c
+/** @file bubblesort.c
  *  @brief Function definitions for the bubble sort library.
  *
  *  This contains the prototypes for the console
@@ -12,13 +12,6 @@
 #include <stdio.h>
 #include "bubblesort.h"
 
-/** @brief Sort the array 
- * 
- *  @param *array Pointer to access the array
- *  @param n Size of array
- *
- *  @return Void
- */
  
 void bubble_sort(int *array, int n)
 {
@@ -37,16 +30,6 @@ void bubble_sort(int *array, int n)
   }
 }
 
-
-/** @brief Fill the array 
- * 
- *  @param *array Pointer to access the array
- *  @param n Size of array
- *
- *  @return Void
- */
-
-
   
  void fill_array(int *array, int size)
  {
@@ -59,13 +42,6 @@ void bubble_sort(int *array, int n)
  }
 
 
-/** @brief Print the array 
- * 
- *  @param *array Pointer to access the array
- *  @param n Size of array
- *
- *  @return Void
- */
  void print_array(int *array, int size)
  {
     printf("{ ");
@@ -73,16 +49,6 @@ void bubble_sort(int *array, int n)
        printf("%d, ", array[c]);
     printf("}\n");
  }
-
-
-/** @brief Validar numeros 
- * 
- *  @param *array Array
- *  @param i Position of array to validate
- *
- *  @return Void
- */
-
 
 void validarValoresArreglo(int *array, int i){
      int validacion, temporal;
