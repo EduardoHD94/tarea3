@@ -1,5 +1,5 @@
-/** @file complexMath.h
- *  @brief Function prototypes for the complexMath library.
+/** @file bubblesort.h
+ *  @brief Function prototypes for the bubblesort library.
  *
  *  This contains the prototypes for the console
  *  driver and eventually any macros, constants,
