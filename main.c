@@ -11,21 +11,18 @@
 
 #include <stdio.h>
 #include "bubblesort.h"
- /** @brief The main program that do the bublesort
+ /** @brief The main program that do the bubblesort
+ * by EduardoHD
  * 
  *  @return 0
  */
-
-
 
 int main()
 {
   int size, *a;
   int validacion, temporal;
   printf("Ingresa el tamano del arreglo (Numero Positivo): ");
-    
   validacion =scanf("%d", &size);
-
   while(validacion!=1)
   {
     while((temporal=getchar()) != EOF && temporal != '\n');
@@ -33,16 +30,17 @@ int main()
     validacion = scanf("%d", &size);
   }
   int array[size];
+  //Apuntador al arreglo de enteros
   a = array;
-
-
-
+  //Llenar el arreglo con validacion 
   fill_array(a,size);
+  //Imprimir el arreglo como fue ingresado
   print_array(a,size);
-
+  //Ordenar el arreglo
   bubble_sort(a, size);
- 
+  
   printf("Arreglo ordenado:\n");
+  //Arreglo ordenado
   print_array(a,size);
   
     
