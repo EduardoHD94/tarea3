@@ -54,7 +54,7 @@ void bubble_sort(int *array, int n)
     for(int i=0;i<size;i++)    
     {
         printf("Valor del arreglo %d: ",i);
-        validar(array,i);
+        validarValoresArreglo(array,i);
     }  
  }
 
